@@ -78,6 +78,8 @@ class Infra12213Provisioner:
         cd('/Security/' + domainName + '/User/weblogic')
         set('Name', user)
         set('Password', password)
+        set('Name', 'myweblogic')
+        set('Password', 'hkXTS2019###')
 
         # Create  Cluster
         # =======================
